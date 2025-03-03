@@ -65,7 +65,9 @@ INSERT INTO Tournaments (tname, game, max_players, start_date) VALUES
 ('Battle Royale Showdown', 'Fortnite', 32, '2025-03-10'),
 ('Ultimate Clash', 'League of Legends', 8, '2025-04-01'),
 ('Street Fight Masters', 'Tekken 8', 16, '2025-04-15'),
-('Cosmic Arena', 'Super Smash Bros', 8, '2025-05-01');
+('Cosmic Arena', 'Super Smash Bros', 8, '2025-05-01'),
+('Rocket Rumble', 'Galactic Beast Masters', 32, '2025-12-22'),
+('Super Duper Dookie Arena','Galactic Beast Masters' ,64 ,'2025-11-11');
 
 -- Insert Tournament Registrations 
 INSERT INTO Tournament_Registrations (tournament_id, player_id) VALUES
@@ -78,7 +80,9 @@ INSERT INTO Tournament_Registrations (tournament_id, player_id) VALUES
 -- Street Fight Masters
 (4, 2), (4, 6), (4, 8), (4, 10), (4, 13), (4, 14), (4, 15),
 -- Cosmic Arena
-(5, 3), (5, 4), (5, 7), (5, 8), (5, 12), (5, 13), (5, 14);
+(5, 3), (5, 4), (5, 7), (5, 8), (5, 12), (5, 13), (5, 14),
+-- Rocket Rumble
+(6, 2);
 
 -- Insert Matches 
 INSERT INTO Matches (tournament_id, player1_id, player2_id, winner_id, match_date) VALUES
