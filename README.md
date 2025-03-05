@@ -1,10 +1,10 @@
 ## 1. Databasedesign og oprettelse af databasen
 
-I vores SQL fil (esport_assignment.sql) har vi lavet et script til at oprette databasen, oprette tabeller og sætte noget dummy data ind.
+I vores SQL fil [esport_assignment.sql](esport_assignment.sql) har vi lavet et script til at oprette databasen, oprette tabeller og sætte noget dummy data ind.
 
 ## 2. SQL-forespørgsler
 
-Vores sql forespørgsler ligger i (esport_assignment_opgave2.sql). Der er de 15 forespørgsler vi har lavet. 
+Vores sql forespørgsler ligger i [esport_assignment_opgave2](esport_assignment_opgave2.sql). Der er de 15 forespørgsler vi har lavet. 
 Eksempler på forespørgsler og at de virker: 
 
 Forespørgsel 2.4:
