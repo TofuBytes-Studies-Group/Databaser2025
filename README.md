@@ -1,5 +1,5 @@
 # Database opgave 2025
-## Skrevet af: Isak Møgelvang, Jamie Callan og Helena Lykstoft
+Skrevet af: Isak Møgelvang, Jamie Callan og Helena Lykstoft
 
 ## 1. Databasedesign og oprettelse af databasen
 
