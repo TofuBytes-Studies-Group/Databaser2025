@@ -27,22 +27,39 @@ Her ser vi de 5 spillere med højest ranking.
 ## 3. Stored procedures, functions og triggers
 
 Vores stored procedures, functions og triggers ligger i de forskellige navngivede filer. 
-RegisterPlayer: registerplayer_opgave3part1.sql
-JoinTournament: jointournament_opgave3part2.sql
-SubmitMatchResult: submitMatchResult_opgave3part3.sql
-GetTotalWins: getTotalWins.sql
-GetTournamentStatus: getTournamentStatus.sql
+
+- RegisterPlayer: registerplayer_opgave3part1.sql
+
+- JoinTournament: jointournament_opgave3part2.sql
+
+- SubmitMatchResult: submitMatchResult_opgave3part3.sql
+
+- GetTotalWins: getTotalWins.sql
+
+- GetTournamentStatus: getTournamentStatus.sql
 
 Og triggersne ligger explicit. Alle procedures og functions er testet for om de virker: 
 Resultat eksempel: 
+
 ![image](https://github.com/user-attachments/assets/31e44da8-825c-4e59-9f98-00f46898621d)
 ![image](https://github.com/user-attachments/assets/5c78e267-5c6b-4d73-8a11-8f2d2fbecbff)
 
-Billederne viser det call vi bruger til at kalde proceduren, og hvordan vi bruger den. Næste billede viser, at brugeren er blevet oprettet når proceduren blev kaldt.
+Billede 1 og 2 viser det call vi bruger til at kalde proceduren, og at brugeren er blevet oprettet når proceduren blev kaldt.
+
+![image](https://github.com/user-attachments/assets/511aef72-2101-471d-aa59-22e09a48f080)
+
+Billede 3 viser at vores function getTotalWins virker, og tjekker for hvor mange wins spilleren med ID 13 har. 
+
+![image](https://github.com/user-attachments/assets/b1358d37-c128-4657-a69a-39b9c9e3df48)
+
+Billede 4 viser at vi har kørt vores trigger, og at den har givet os vores fejlmeddelelse.
 
 ## 4. Brug af databasen fra en applikation
 
-Vi har lavet en lille applikation, der kan kalde vores stored procedures. Det er en meget simpel lille konsol applikation.
+Vi har lavet en lille applikation, der kan kalde vores stored procedures. 
+Det er en meget simpel lille konsol applikation, hvor vi har lavet 2 filer: WithStoredProcedures og WithoutStoredProcedures.
+
+I vores WithStoredProcedures bruger vi de stored procedures vi har lavet, og i WithoutStoredProcedures laver vi direkte kald til databasen, for at joine en tournament, eller vælge en vinder på en kamp.
 
 ## 5. Kort redegørelse 
 Vi synes generelt set at brug af SQL programmering har fungeret godt for os. 
