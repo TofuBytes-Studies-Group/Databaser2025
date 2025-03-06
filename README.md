@@ -28,15 +28,25 @@ Her ser vi de 5 spillere med højest ranking.
 
 Vores stored procedures, functions og triggers ligger i de forskellige navngivede filer. 
 
+### Stored procedures
+
 - RegisterPlayer: registerplayer_opgave3part1.sql
 
 - JoinTournament: jointournament_opgave3part2.sql
 
 - SubmitMatchResult: submitMatchResult_opgave3part3.sql
 
+### Functions
+
 - GetTotalWins: getTotalWins.sql
 
 - GetTournamentStatus: getTournamentStatus.sql
+
+### Triggers
+
+- beforeInsertRegistration: esport_assignment_opgave3.sql
+
+- afterInsertMatch: esport_assignment_opgave3.sql
 
 Og triggersne ligger explicit. Alle procedures og functions er testet for om de virker: 
 Resultat eksempel: 
@@ -48,11 +58,11 @@ Billede 1 og 2 viser det call vi bruger til at kalde proceduren, og at brugeren 
 
 ![image](https://github.com/user-attachments/assets/511aef72-2101-471d-aa59-22e09a48f080)
 
-Billede 3 viser at vores function getTotalWins virker, og tjekker for hvor mange wins spilleren med ID 13 har. 
+Billede 3 viser at vores function getTotalWins virker, og tjekker for hvor mange sejre spilleren med ID 13 har. 
 
 ![image](https://github.com/user-attachments/assets/b1358d37-c128-4657-a69a-39b9c9e3df48)
 
-Billede 4 viser at vi har kørt vores trigger, og at den har givet os vores fejlmeddelelse.
+Billede 4 viser at vi har kørt vores trigger, og at den har givet os vores fejlmeddelelse, da vi prøvede at tilføje flere spillere end der var plads til.
 
 ## 4. Brug af databasen fra en applikation
 
