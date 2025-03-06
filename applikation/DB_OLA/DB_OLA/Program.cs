@@ -6,7 +6,7 @@ class Program
     {
         while (true)
         {
-            Console.WriteLine("Greetings Tine - Welcome to our pee pee poopy application please Choose mode:");
+            Console.WriteLine("Greetings Tine - Welcome to our pee pee poo application please Choose mode:");
             Console.WriteLine("1. Use Stored Procedures");
             Console.WriteLine("2. Use Direct Queries (No Procedures)");
             Console.WriteLine("3. End the applications poor life :)");

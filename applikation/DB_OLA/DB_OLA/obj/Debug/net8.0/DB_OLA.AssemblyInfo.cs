@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DB_OLA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abd33f1be12dbcb33c96cec1c4275a2cc01d5e2b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3d376161897a4cd3352991bc6f462a843f8077b")]
 [assembly: System.Reflection.AssemblyProductAttribute("DB_OLA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DB_OLA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
