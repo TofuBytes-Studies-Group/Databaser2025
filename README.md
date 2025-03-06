@@ -1,3 +1,6 @@
+# Database opgave 2025
+## Skrevet af: Isak Møgelvang, Jamie Callan og Helena Lykstoft
+
 ## 1. Databasedesign og oprettelse af databasen
 
 I vores SQL fil [esport_assignment.sql](esport_assignment.sql) har vi lavet et script til at oprette databasen, oprette tabeller og sætte noget dummy data ind.
